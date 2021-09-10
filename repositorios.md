@@ -20,3 +20,5 @@ Um outro cenário, é que o artefato que o projeto necessita não existe no repo
 ![alt=Repositório local não contém o artefato](https://i.imgur.com/SRmGP2i.png)
 
 Nesse caso, o Maven busca no repositório remoto, encontra o artefato e armazena o mesmo no repositório local. Na próxima vez que o artefato for utilizado já estará no repo local.
+
+
