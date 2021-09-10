@@ -1,6 +1,3 @@
-## O que podemos fazer
-
-
 ## Principais comandos utilizados no dia a dia
 
     mvn compile
