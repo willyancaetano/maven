@@ -20,6 +20,6 @@ O Maven é uma ferramenta de gerenciamento de builds e dependências. Foi criada
 ## Referências
 - Site download Apache Maven: https://maven.apache.org/download.cgi
 - Lista de archetypes
- - https://gist.github.com/zbigniewTomczak/4235871
+	- https://gist.github.com/zbigniewTomczak/4235871
 	- https://maven.apache.org/archetypes/
 	- https://gist.github.com/dotku/bdabf7269a0ca73d2aa27dbfe8783454
