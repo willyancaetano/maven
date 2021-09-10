@@ -9,4 +9,4 @@ Um projeto possui dependências. Quando vamos compilar, executamos  `mvn compile
 
 ### Como funciona
 
-![Funcionamento](https://imgur.com/a/GT2N5mO)
+![Funcionamento](https://i.imgur.com/jMtLw1J.png)
