@@ -10,3 +10,13 @@ Um projeto possui dependências. Quando vamos compilar, executamos  `mvn compile
 ### Como funciona
 
 ![alt=Acessa repositório Local](https://i.imgur.com/jMtLw1J.png)
+
+Aqui executamos `mvn compile` e o Maven encontrou no repositório local os artefatos que foi necessário.
+
+![alt=Repositório local não contém o artefato](https://i.imgur.com/ShnFrWY.png)
+
+Um outro cenário, é que o artefato que o projeto necessita não existe no repositório local.
+
+![alt=Repositório local não contém o artefato](https://i.imgur.com/SRmGP2i.png)
+
+Nesse caso, o Maven busca no repositório remoto, encontra o artefato e armazena o mesmo no repositório local. Na próxima vez que o artefato for utilizado já estará no repo local.
