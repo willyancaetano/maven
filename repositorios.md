@@ -21,4 +21,37 @@ Um outro cenário, é que o artefato que o projeto necessita não existe no repo
 
 Nesse caso, o Maven busca no repositório remoto, encontra o artefato e armazena o mesmo no repositório local. Na próxima vez que o artefato for utilizado já estará no repo local.
 
+### Configurando repositório remoto
 
+#### Via settings.xml
+
+ - Edite no arquivo `pasta_apache_maven/conf/settings.xml`, a tag `<mirrors>` incluindo o server que você deseja.
+```xml
+    <mirrors>
+        <mirror>
+            <id>internal-baeldung-repository</id>
+            <name>Baeldung Internal Repo</name>
+            <url>https://baeldung.com/repo/maven2/</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors>
+```
+
+Essa configuração vai sobrescrever a configuração do `pom.xml`
+
+#### Via pom.xml
+
+No `pom.xml`, adicione a tag `<repositories>` e adicione o(s) repositório(s) que desejar.
+
+```xml
+<project>
+	...
+	<repositories>
+		<repository>
+			<id>my-internal-site</id>
+			<url>https://myserver/repo</url>
+		</repository>
+	</repositories>
+	...
+</project>
+```
