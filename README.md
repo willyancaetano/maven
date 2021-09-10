@@ -31,3 +31,5 @@ O Maven é uma ferramenta de gerenciamento de builds e dependências. Foi criada
 - https://www.journaldev.com/33645/maven-commands-options-cheat-sheet
 - https://maven.apache.org/guides/introduction/introduction-to-repositories.html
 - https://www.baeldung.com/maven-settings-xml
+- https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
+- https://www.baeldung.com/maven-dependency-scopes
