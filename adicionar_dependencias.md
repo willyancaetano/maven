@@ -1,4 +1,4 @@
-## Adicionar dependências ao projeto
+## Como adicionar dependências ao projeto
 
 - Encontre a dependência que deseja inserir. Um bom site de referência é [MvnRepository](https://mvnrepository.com/)
 - Adicione a dependência em seu `pom.xml`
