@@ -16,6 +16,7 @@ O Maven é uma ferramenta de gerenciamento de builds e dependências. Foi criada
 - [Instalação e configuração](instalacao_configuracao.md)
 - [Criando projetos pela linha de comando](criando_projetos.md)
 - [Principais comandos utilizados no dia a dia](principais_comandos.md)
+- [Repositórios](repositorios.md)
 
 
 ## Referências
