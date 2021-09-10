@@ -31,3 +31,5 @@ Assim, caso nesse cenário adicionássemos este componente do jUnit estaríamos 
 As dependências transitivas, ou seja, aquelas que os artefatos que você adicionou ao seu projeto utiliza estão disponíveis no seu classpath, em outras palavras, você consegue utilizar. Isso pode ao longo do tempo e com o crescimento da aplicação se tornar um problema. Pense nos cenários:
 - Vamos supor que existem duas versões diferentes do mesmo componentes herdado, de forma transitiva ?
 - Outro cenário que pode surgir é o time utilizar sem perceber e numa possível atualização da dependência ocorrer um problema de compatibilidade
+
+Existem vários outros cenários, mas isso é para compreender o problema desta situação.
