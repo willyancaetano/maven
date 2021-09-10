@@ -19,6 +19,7 @@ O Maven é uma ferramenta de gerenciamento de builds e dependências. Foi criada
 - [Repositórios](repositorios.md)
 - [Como adicionar dependências ao projeto](adicionar_dependencias.md)
 - [Tipos de dependência](tipos_de_dependencia.md)
+- [Como remover dependências transitivas](como_remover_dependencias_transitivas.md)
 
 
 ## Referências
